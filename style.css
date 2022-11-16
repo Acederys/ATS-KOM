@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "ptsans";
+  src: url("../fonts/ptsans.woff2"), url("../fonts/ptsans.woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "ptsansbold";
+  src: url("../fonts/ptsansbold.woff2"), url("../fonts/ptsansbold.woff");
+  font-weight: 700;
+  font-style: normal; }
+
+.container {
+  width: 320px;
+  margin: 0 auto; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.btn {
+  font-family: "ptsans", "Arial", sans-serif;
+  background-color: #81b3d2;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  text-align: center;
+  width: 280px; }
+
+.btn:hover {
+  background: #669ec0; }
+
+.btn:focus {
+  background: #5496bd;
+  color: rgba(255, 255, 255, 0.3); }
+
+.btn:disabled {
+  background: #e5e5e5; }
+
+@media (min-width: 1200px) {
+  .desktop-shadow {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative; }
+  .desktop-shadow::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    box-shadow: -2px 1px 4px rgba(1, 1, 1, 0.2);
+    top: -28px;
+    left: 0; }
+  .desktop-shadow::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    box-shadow: 2px 1px 4px rgba(1, 1, 1, 0.2);
+    top: -28px;
+    right: 0; } }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  position: relative; }
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 800px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto; 
+    } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto; } }
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+.header {
+    max-width: 100%;
+ }
+
+@media (min-width: 768px) {
+  }
+
+@media (min-width: 1200px) {
+   }
+
+.main {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto; }
+
+.main__header {
+  display: flex;
+  width: 320px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0;
+  z-index: 0; }
+  
+
+
+
+/*# sourceMappingURL=style.css.map */
