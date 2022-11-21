@@ -1,0 +1,13 @@
+body {
+  background-color: grey;
+}
+
+.header__portal p {
+  color: red;
+  font-size: 43px;
+}
+
+.header__link a {
+  font-size: 16px;
+  color: #000;
+}
