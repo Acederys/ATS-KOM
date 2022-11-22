@@ -13,6 +13,7 @@
 .body {
   background-color: #D7D7D7;
   font-size: 14px;
+  font-family: "opsans", sans-serif;
 }
 
 .container {
@@ -111,7 +112,7 @@
 
 .header__link-item:first-child p img {
   position: absolute;
-  top: 1px;
+  top: 4px;
 }
 
 .header__link-item:first-child p {
