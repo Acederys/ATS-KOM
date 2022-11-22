@@ -7,3 +7,19 @@
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden; }
+
+.visually-hidden-mobile {
+    display: none;
+}
+
+ @media (min-width: 768px) {
+    .visually-hidden-mobile {
+        display: inline-block;
+    }
+}
+    
+@media (min-width: 1200px) {
+    .visually-hidden-mobile {
+        display: inline-block;
+    }
+}

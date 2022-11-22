@@ -1,0 +1,23 @@
+.body { 
+    background-color: $color-grey;
+    font-size: 14px;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+@media (min-width: 768px) {
+    .container { 
+        width: 768px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container { 
+        width: 1200px;
+    }
+}
