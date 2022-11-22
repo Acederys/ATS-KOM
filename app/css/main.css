@@ -49,11 +49,6 @@
   display: none;
 }
 
-@media (min-width: 768px) {
-  .visually-hidden-mobile {
-    display: inline-block;
-  }
-}
 @media (min-width: 1200px) {
   .visually-hidden-mobile {
     display: inline-block;
@@ -88,6 +83,7 @@
   padding-left: 31px;
   padding-top: 6px;
   text-align: center;
+  color: #122F5E;
 }
 .header__link {
   display: flex;
@@ -117,4 +113,126 @@
 
 .header__link-item:first-child p {
   margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    width: 768px;
+    justify-content: space-between;
+    padding-top: 26px;
+  }
+  .header__logo {
+    padding-top: 18px;
+    padding-left: 13px;
+  }
+  .header__portal {
+    width: 301px;
+    margin-left: 0px;
+  }
+  .header__portal-img {
+    width: 81px;
+    height: 78px;
+    top: 27px;
+    left: 5px;
+  }
+  .header__portal-text {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 97px;
+    padding-top: 10px;
+  }
+  .header__link {
+    width: 210px;
+    padding: 13px 0px 0px 0px;
+  }
+  .header__link-menu {
+    width: 70px;
+    height: 70px;
+  }
+  .header__logo img {
+    width: 193px;
+    height: 95px;
+  }
+  .header__link-image img {
+    width: 59px;
+    height: 59px;
+  }
+  .header__link-item:first-child p img {
+    top: 11px;
+  }
+  .header__link-item:nth-child(2) p img {
+    width: 73px;
+    height: 73px;
+  }
+  .header__link-item:nth-child(2) {
+    padding-left: 50px;
+  }
+  .header__link-menu img {
+    width: 67px;
+    height: 73px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    width: 1200px;
+    padding-top: 10px;
+    justify-content: flex-start;
+  }
+  .header__logo {
+    padding-left: 18px;
+    padding-top: 11px;
+  }
+  .header__portal {
+    width: 265px;
+    margin-left: 11px;
+  }
+  .header__portal-img {
+    width: 73px;
+    height: 70px;
+  }
+  .header__portal-text {
+    font-size: 15px;
+    padding-left: 69px;
+    padding-top: 28px;
+  }
+  .header__link {
+    width: 630px;
+    margin-left: 25px;
+    padding-top: 19px;
+  }
+  .header__link-image {
+    position: relative;
+  }
+  .header__link-text {
+    font-size: 19px;
+  }
+  .header__link a {
+    color: #122F5E;
+  }
+  .header__link-item:first-child {
+    width: 200px;
+    text-align: end;
+    width: 200px;
+    padding-top: 7px;
+    margin-top: 0;
+    position: relative;
+  }
+  .header__link-item:first-child p img {
+    top: -19px;
+    right: 4px;
+  }
+  .header__link-item:nth-child(2) {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .header__link-item:nth-child(2) .header__link-image {
+    position: absolute;
+  }
+  .header__link-item:nth-child(2) .header__link-text {
+    padding-left: 64px;
+    margin-top: 0;
+    text-align: center;
+  }
 }
