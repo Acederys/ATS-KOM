@@ -1,4 +1,39 @@
 .footer {
     background-color: $color-backgraund-footer;
     color: $color-grey;
+    justify-content: flex-start;
+    padding-top: 50px;
+    
+    &__item {
+        width: 320px;
+        padding-left: 17px;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 43px;
+    }
+
+    &__adress-item {
+        padding-bottom: 8px;
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: $color-grey;
+    }
+    &--link {
+        text-decoration: none;
+        color: $color-grey;
+    }
+    &__menu-list {
+        margin-top: 18px;
+    }
+    &__menu-item {
+        margin-bottom: 13px;
+    }
 }

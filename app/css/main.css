@@ -224,4 +224,35 @@
 .footer {
   background-color: #245287;
   color: #D7D7D7;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+.footer__item {
+  width: 320px;
+  padding-left: 17px;
+}
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 43px;
+}
+.footer__adress-item {
+  padding-bottom: 8px;
+}
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #D7D7D7;
+}
+.footer--link {
+  text-decoration: none;
+  color: #D7D7D7;
+}
+.footer__menu-list {
+  margin-top: 18px;
+}
+.footer__menu-item {
+  margin-bottom: 13px;
 }
