@@ -256,3 +256,50 @@
 .footer__menu-item {
   margin-bottom: 13px;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    width: 768px;
+  }
+  .footer__item {
+    width: 200px;
+    padding-left: 50px;
+    margin-right: 5px;
+  }
+  .footer__menu {
+    font-size: 22px;
+  }
+  .footer__list {
+    margin-top: 0;
+  }
+  .footer__outer-caption {
+    margin-top: 0;
+    font-style: normal;
+  }
+  .footer__outer-item {
+    padding-bottom: 17px;
+    font-size: 15px;
+  }
+  .footer__logo-img {
+    width: 200px;
+    height: 61px;
+  }
+  .visually-hidden-mobile {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    width: 1200px;
+  }
+  .footer__item {
+    width: 315px;
+  }
+  .footer__logo {
+    justify-content: flex-start;
+  }
+  .footer__logo-img {
+    width: 264px;
+    height: 80px;
+  }
+}
