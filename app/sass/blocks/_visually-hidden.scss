@@ -12,8 +12,12 @@
     display: none;
 }
 
+.visually-hidden-header-mobile {
+    display: none;
+}
+
 @media (min-width: 1200px) {
-    .visually-hidden-mobile {
+    .visually-hidden-header-mobile {
         display: inline-block;
     }
 }
