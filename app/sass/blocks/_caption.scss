@@ -1,0 +1,12 @@
+.caption {
+    background-image: url(../images/background-even.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    &__text {
+        color: $color-grey;
+        font-weight: bold;
+        font-size: 36px;
+        padding-left: 25px;
+    }
+}

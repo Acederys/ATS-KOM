@@ -9,51 +9,57 @@
     <link rel="stylesheet" href="../css/main.css" />
 </head>
 <body class="body">
-    <header class="header container container__header">
-        <div class="header__logo header__flex">
-        <img src="../images/logo.png" alt="Атс-ком обслуживание Атс" width="83" height="40"/>
-        </div>
-        <div  class="header__portal header__flex">
-        <img class="header__portal-img" src="../images/portal.png" alt="Мы зарегистрованы на портале поставщиков" width="25" height="25">
-        <p class="header__portal-text">Мы зарегистрованы на Портале Поставщиков</p>
-        </div>
-        <div class="header__link header__flex">
-        <a href="mailto:ats@ts-ats.ru" class="header__link-item">
-            <p class="header__link-image header__link-image--mail">
-            <img src="../images/mail.png" alt="mail" width="21" height="21">
-            </p>
-            <p class="header__link-text header__link--mail visually-hidden-mobile">ats@ts-ats.ru</p>
-        </a>
-        <a href="tel:+74957883933" class="header__link-item">
-            <p class="header__link-image">
-            <img src="../images/phone.png" alt="phone" width="25" height="25">
-            </p>
-            <p class="header__link-text visually-hidden-mobile">ЗВОНИТЕ НАМ ПРЯМО <br> СЕЙЧАС</p>
-            <p class="header__link-text visually-hidden-mobile">+7 (495) 788-39-33</p>
-        </a>
-        <p class="header__link-menu">
-            <img src="../images/menu.png" alt="menu" width="34" height="27">
-        </p>
-        </div>
-    </header>
+  <header class="header container container__header">
+    <div class="header__logo header__flex">
+      <img class="header__logo-img" src="../images/logo.png" alt="Атс-ком обслуживание Атс" width="83" height="40"/>
+    </div>
+    <div  class="header__portal header__flex">
+      <img class="header__portal-img" src="../images/portal.png" alt="Мы зарегистрованы на портале поставщиков" width="25" height="25">
+      <p class="header__portal-text">Мы зарегистрованы на Портале Поставщиков</p>
+    </div>
+    <div class="header__link header__flex">
+      <a href="mailto:ats@ts-ats.ru" class="header__link-item header__link--mail">
+        <p class="header__link-text header__link--mail visually-hidden-header-mobile">ats@ts-ats.ru</p>
+      </a>
+      <a href="tel:+74957883933" class="header__link-item header__link--phone">
+        <p class="header__link-text visually-hidden-header-mobile">ЗВОНИТЕ НАМ ПРЯМО <br> СЕЙЧАС</p>
+        <p class="header__link-text visually-hidden-header-mobile">+7 (495) 788-39-33</p>
+      </a>
+      <a hre="#" class="header__link-menu">
+        <p class="visually-hidden">Меню</p>
+      </a>
+    </div>
+  </header>
     <main>
-        <header>
-            <h1>Контакты</h1>
+        <header class="container caption">
+            <h1 class="caption__text">Контакты</h1>
         </header>
-        <section>
-            <div>
-                <p>Телефон для связи<a href="tel:+7 (495) 788-39-33">
-                    +7 (ХХХ) ХХХ - ХХ - ХХ</a></p>
-                <p>Электронная почта<a href="mailto:ats@ts-ats.ru">
-                    ats@ts-ats.ru</a></p>
-                <p>Часы работы офиса <br>
-                    Понедельник - Пятница с 9.00 до 20.00<br>
-                    Перерыв на обед с 13.00 до 14.00<br>
-                </p>
+        <section class="container contact">
+            <div class="contact__box">
+              <img class="contact__map" src="../images/map-contact.png" alt="Расположение на карте компании АТСКОМ" width="1060" height="524">
             </div>
-            <div>
-                <p>Реквизиты предприятия <br>
-                    ООО "ТЦ АТСКОМ"<br>
+            <ul class="contact__box">
+              <li class="contact__item">
+                <p class="contact__text contact__text--bold">Адрес</p>
+                <p class="contact__text">115583, г. Москва, ул. Генерала Белова, д. 26, офис 413</p>
+              </li>
+              <li class="contact__item">
+                <p class="contact__text contact__text--bold">Телефон</p>
+                <p class="contact__text"><a class="contact__link"  href="tel:+74957883933">+7 (495) 788-39-33</a></p>
+              </li>
+              <li class="contact__item">
+                <p class="contact__text contact__text--bold">Email</p>
+                <p class="contact__text"><a class="contact__link" href="mailto:ats@ts-ats.ru">ats@ts-ats.ru</a></p>
+              </li>
+              <li class="contact__item">
+                <p class="contact__text contact__text--bold">Часы работы офиса</p>
+                <p class="contact__text">Пн-Пт с 9:00 до 18:00</p>
+                <p class="contact__text">Перерыв на обед с 13:00 до 14:00</p>
+              </li>
+            </ul>
+            <div class="contact__about-company">
+                <p class="class__about-text class__about-text--bold">Реквизиты предприятия </p>
+                <p class="class__about-text">ООО "ТЦ АТСКОМ"<br>
                     ИНН/КПП: 7725783337/772401001<br>
                     Р/счет: 40702810002710000238 в АО "АЛЬФА-БАНК" Г. МОСКВА<br>
                     БИК: 044525593<br>
@@ -62,7 +68,6 @@
                     ОКПО: 11451987
                     </p>
             </div>
-            <img src="../images/map.png" alt="карта расположения atscom">
         </section>
     </main>
     <footer class="container footer">

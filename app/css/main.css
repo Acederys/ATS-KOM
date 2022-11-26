@@ -307,3 +307,20 @@
     margin-bottom: 25px;
   }
 }
+.caption {
+  background-image: url(../images/background-even.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption__text {
+  color: #D7D7D7;
+  font-weight: bold;
+  font-size: 36px;
+  padding-left: 25px;
+}
+
+.contact__map {
+  width: 320px;
+  height: 158px;
+}
