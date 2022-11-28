@@ -1,6 +1,98 @@
 .contact {
+    justify-content: center;
     &__map {
         width: 320px;
         height: 158px;
+    }
+
+    &__box {
+        margin-top: 0;
+        list-style: none;
+        padding-left: 0;
+        color: $color-blue;
+        font-size: 20px;
+    }
+
+    &__item {
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        background-position: 1px 1px;
+        padding-left: 45px;
+        margin-bottom: 25px;
+    }
+
+    &__item--adress {
+        background-image: url("../images/adress.png");
+    }
+    &__item--phone {
+        background-image: url("../images/phone.png");
+    }
+
+    &__item--mail {
+        background-image: url("../images/mail.png");
+    }
+
+    &__item--time {
+        background-image: url("../images/time.png");
+    }
+
+    &__text--bold {
+        font-family: "opsansbold";
+        font-style: bold;
+    }
+
+    &__text {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__about-text--bold {
+        font-family: "opsansbold";
+        font-style: bold;
+    }
+
+    &__about-company {
+        width: 280px;
+        border-radius: 25px;
+        background-color: $color-contact-blue;
+        color: $color-grey;
+        font-size: 13px;
+        text-align: center;
+        padding: 20px 10px 20px 10px;
+        margin-bottom: 25px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-blue;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .contact {
+        &__map {
+            width: 768px;
+            height: 380px;
+        }
+
+        &__about-company {
+            width: 734px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact {
+        &__map {
+            width: 1060px;
+            height: 524px;
+        }
+
+        &__about-company {
+            width: 1100px;
+            font-size: 20px;
+        }
     }
 }
