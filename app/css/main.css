@@ -315,6 +315,9 @@
   font-size: 36px;
   padding-left: 25px;
 }
+.caption--index {
+  background-image: url(../images/1.png);
+}
 
 .contact {
   justify-content: center;
