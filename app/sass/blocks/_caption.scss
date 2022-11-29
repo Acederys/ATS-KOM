@@ -1,8 +1,9 @@
 .caption {
     background-image: url(../images/background-even.png);
-    background-position: 0 0;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
+    width: 100%;
     &__text {
         color: $color-grey;
         font-weight: bold;
@@ -10,3 +11,15 @@
         padding-left: 25px;
     }
 }
+
+// @media (min-width: 768px) {
+//     .caption {
+//         background-position: 0 -50px;
+//     }
+// }
+
+// @media (min-width: 1200px) {
+//     .caption {
+//         background-position: 0 -102px;
+//     }
+// }

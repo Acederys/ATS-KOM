@@ -3,6 +3,7 @@
     color: $color-grey;
     justify-content: flex-start;
     padding-top: 50px;
+    width: 100%;
     
     &__item {
         width: 320px;
@@ -40,7 +41,7 @@
 
 @media (min-width: 768px) {
     .footer  { 
-        width: 768px;
+        // width: 768px;
         &__item {
             width: 200px;
             padding-left: 50px;
@@ -77,8 +78,8 @@
 
 @media (min-width: 1200px) {
     .footer { 
-        width: 1200px;
-        padding-top: 43px;
+        // width: 1200px;
+        // padding-top: 43px;
 
         &__item {
             width: 315px;
