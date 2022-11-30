@@ -399,3 +399,24 @@
     font-size: 20px;
   }
 }
+.about-us__box {
+  background-color: #6E8EB4;
+  color: #D7D7D7;
+}
+
+.about-info__desc {
+  color: #6E8EB4;
+}
+.about-info__list {
+  background-color: #6E8EB4;
+  color: #D7D7D7;
+}
+
+.sertificate {
+  background-color: #7EA4C7;
+  color: #D7D7D7;
+}
+
+.specialists {
+  color: #122F5E;
+}

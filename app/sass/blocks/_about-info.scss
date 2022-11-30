@@ -1,0 +1,10 @@
+.about-info {
+    &__desc {
+        color: $color-contact-blue;
+    }
+
+    &__list {
+        background-color:$color-contact-blue;
+        color: $color-grey;
+    }
+}
