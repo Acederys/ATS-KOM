@@ -23,6 +23,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.container--center {
+  justify-content: center;
+}
 
 @media (min-width: 768px) {
   .container {
@@ -53,6 +56,15 @@
   display: none;
 }
 
+.visually-hidden--slider {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .visually-hidden--slider {
+    display: inline-block;
+  }
+}
 @media (min-width: 1200px) {
   .visually-hidden-header-mobile {
     display: inline-block;
@@ -318,6 +330,9 @@
 .caption--index {
   background-image: url(../images/1.png);
 }
+.caption__text--long {
+  font-size: 16px;
+}
 
 .contact {
   justify-content: center;
@@ -399,24 +414,296 @@
     font-size: 20px;
   }
 }
+.about-us {
+  margin-top: 20px;
+}
 .about-us__box {
   background-color: #6E8EB4;
   color: #D7D7D7;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+.about-us__img {
+  width: 300px;
+  height: 207px;
+}
+.about-us__caption {
+  width: 280px;
+  padding-left: 55px;
+  background-image: url("../images/atsprem.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.about-us__text {
+  width: 280px;
 }
 
+@media (min-width: 768px) {
+  .about-us {
+    width: 768px;
+  }
+  .about-us__img {
+    width: 450px;
+    height: 311px;
+  }
+  .about-us__caption {
+    width: 230px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-us {
+    width: 1200px;
+    align-items: flex-start;
+  }
+  .about-us__img {
+    width: 753px;
+    height: 520px;
+  }
+  .about-us__box {
+    width: 370px;
+  }
+}
 .about-info__desc {
   color: #6E8EB4;
 }
 .about-info__list {
   background-color: #6E8EB4;
   color: #D7D7D7;
+  margin-top: 20px;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  border-radius: 25px;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.about-info__item {
+  width: 300px;
+  padding-left: 55px;
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.about-info__item--only {
+  background-image: url("../images/only.png");
+}
+.about-info__item--case {
+  background-image: url("../images/case.png");
+}
+.about-info__item--setting {
+  background-image: url("../images/setting.png");
+}
+.about-info__caption {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
+@media (min-width: 768px) {
+  .about-info__list {
+    width: 768px;
+  }
+  .about-info__item {
+    width: 200px;
+    padding-left: 0;
+    padding-top: 50px;
+    background-position: center top;
+    background-size: 45px;
+    text-align: center;
+  }
+  .about-info__caption {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-info {
+    font-size: 16px;
+  }
+  .about-info__list {
+    width: 768px;
+  }
+  .about-info__item {
+    width: 200px;
+  }
+}
 .sertificate {
   background-color: #7EA4C7;
   color: #D7D7D7;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.sertificate__caption {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+  margin-top: 0;
+}
+.sertificate__list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.sertificate__figure {
+  width: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sertificate__img {
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25), -6px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 70.83%), #B6B6B6;
+  width: 280px;
+}
+.sertificate__figcaption {
+  background-color: #6E8EB4;
+  border-radius: 25px;
+  width: 275px;
+  padding: 20px 5px 20px 40px;
+  background-image: url("../images/only.png");
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 20px;
+  margin-top: 15px;
+}
+.sertificate__next {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #245287;
+  color: #D7D7D7;
+  font-size: 16px;
+  border-radius: 25px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+.sertificate__page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sertificate__link {
+  background-color: #E6E6E6;
+  border-radius: 50%;
+  padding: 5px 9px;
+  text-decoration: none;
+  color: #D7D7D7;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
+@media (min-width: 768px) {
+  .sertificate__list {
+    align-items: flex-end;
+  }
+  .sertificate__item {
+    width: 250px;
+  }
+  .sertificate__figure {
+    width: 200px;
+  }
+  .sertificate__img {
+    width: 140px;
+  }
+  .sertificate__figcaption {
+    width: 140px;
+  }
+  .sertificate__item {
+    width: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .sertificate {
+    font-size: 16px;
+  }
+  .sertificate__caption {
+    text-align: left;
+    font-size: 24px;
+  }
+  .sertificate__item {
+    width: 350px;
+  }
+  .sertificate__figure {
+    width: 350px;
+  }
+  .sertificate__img {
+    width: 350px;
+  }
+  .sertificate__figcaption {
+    width: 350px;
+  }
+}
 .specialists {
   color: #122F5E;
+}
+.specialists__caption {
+  width: 100%;
+}
+.specialists__box {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.specialists__personal {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 30px;
+  margin-right: 0;
+}
+.specialists__personal-img {
+  width: 300px;
+}
+.specialists__item {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .specialists {
+    padding-bottom: 25px;
+  }
+  .specialists__caption {
+    margin-bottom: 0;
+  }
+  .specialists__box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  .specialists__list {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .specialists__item {
+    width: 200px;
+  }
+  .specialists__item-img {
+    width: 200px;
+  }
+  .specialists__item-caption {
+    width: 200px;
+  }
 }

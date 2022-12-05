@@ -1,6 +1,60 @@
 .about-us {
+    margin-top: 20px;
     &__box {
         background-color: $color-contact-blue;
         color: $color-grey;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-top: 20px;
+        border-radius: 25px;
+    }
+
+    &__img {
+        width: 300px;
+        height: 207px;
+    }
+
+    &__caption {
+        width: 280px;
+        padding-left: 55px;
+        background-image: url("../images/atsprem.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+    &__text {
+        width: 280px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .about-us {
+        width: 768px;
+
+        &__img {
+            width: 450px;
+            height: 311px;
+        }
+
+        &__caption {
+            width: 230px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-us {
+        width: 1200px;
+        align-items: flex-start;
+        &__img {
+            width: 753px;
+            height: 520px;
+        }
+
+        &__box {
+            width: 370px;
+        }
     }
 }

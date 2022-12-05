@@ -16,6 +16,16 @@
     display: none;
 }
 
+.visually-hidden--slider {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .visually-hidden--slider { 
+        display: inline-block;
+    }
+}
+
 @media (min-width: 1200px) {
     .visually-hidden-header-mobile {
         display: inline-block;

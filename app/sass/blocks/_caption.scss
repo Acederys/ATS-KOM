@@ -14,16 +14,7 @@
     &--index {
         background-image: url(../images/1.png);
     }
+    &__text--long {
+        font-size: 16px;
+    }
 }
-
-// @media (min-width: 768px) {
-//     .caption {
-//         background-position: 0 -50px;
-//     }
-// }
-
-// @media (min-width: 1200px) {
-//     .caption {
-//         background-position: 0 -102px;
-//     }
-// }

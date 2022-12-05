@@ -1,4 +1,134 @@
 .sertificate {
     background-color: $color-light-blue;
     color: $color-grey;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    &__caption {
+        text-transform: uppercase;
+        width: 100%;
+        text-align: left;
+        margin-top: 0;
+    }
+    &__list {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__figure {
+        width: 300px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25), -6px 6px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 20px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 70.83%), #B6B6B6;
+        width: 280px;
+    }
+
+    &__figcaption {
+        background-color: $color-contact-blue;
+        border-radius: 25px;
+        width: 275px;
+        padding: 20px 5px 20px 40px;
+        background-image: url("../images/only.png");
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        background-size: 20px;
+        margin-top: 15px;
+    }
+
+    &__next {
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: $color-backgraund-footer;
+        color: $color-grey;
+        font-size: 16px;
+        border-radius: 25px;
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__page {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__link {
+        background-color: $color-slider-btn;
+        border-radius: 50%;
+        padding: 5px 9px;
+        text-decoration: none;
+        color:$color-grey;
+        margin-top: 20px;
+        margin-left: 10px;
+
+    }
+}
+
+
+@media (min-width: 768px) {
+    .sertificate { 
+
+        &__list {
+            align-items: flex-end;
+        }
+        &__item {
+            width: 250px;
+        }
+        &__figure {
+            width: 200px;
+        }
+
+        &__img {
+            width: 140px;
+        }
+
+        &__figcaption {
+            width: 140px;
+        }
+
+        &__item {
+            width: 200px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .sertificate { 
+        font-size: 16px;
+
+        &__caption {
+            text-align: left;
+            font-size: 24px;
+        }
+
+        &__item {
+            width: 350px;
+        }
+
+        &__figure {
+            width: 350px;
+        }
+
+        &__img {
+            width: 350px;
+        }
+
+        &__figcaption {
+            width: 350px;
+        }
+    }
 }
