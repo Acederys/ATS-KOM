@@ -1,0 +1,62 @@
+.prodject-map {
+    background-color: $color-light-blue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: $color-contact-blue;
+    &__img {
+        width: 310px;
+        height: 120px;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+    }
+
+    &__box {
+        background-color: $color-grey;
+        padding: 105px 10px 15px 10px;
+        border-radius: 10px;
+        z-index: 0;
+        margin-top: 20px;
+    }
+
+    &__caption {
+        padding-left: 33px;
+        background-image: url("../images/project-map-icon.png");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+
+.prodject-map div {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .prodject-map {
+        &__img {
+            width: 650px;
+            height: 251px;
+        }
+
+        &__box {
+            padding: 200px 10px 15px 10px;
+            margin-top: 46px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .prodject-map {
+        font-size: 20px;
+        &__img {
+            width: 1042px;
+            height: 404px;
+        }
+
+        &__box {
+            padding: 345px 110px 15px 51px;
+            margin-top: 55px;
+        }
+    }
+}
