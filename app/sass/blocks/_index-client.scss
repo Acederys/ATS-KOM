@@ -1,0 +1,50 @@
+.index-client {
+    background-color: $color-contact-blue;
+    color: $color-grey;
+
+    &__caption {
+        width: 100%;
+        text-align: center;
+    }
+
+    &__box {
+        background-color: $color-grey;
+        color: $color-contact-blue;
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+    }
+
+    &__box-caption {
+        margin: 0;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &__box-link {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__link {
+        width: 45%;
+        text-decoration: none;
+        color: $color-contact-blue;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+}
+
+.index-client__link:nth-last-of-type(even) {
+    border-right: 2px dashed $color-contact-blue;
+}

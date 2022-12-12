@@ -1,0 +1,57 @@
+.index-services {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    &__box {
+        background-color: $color-light-blue;
+        color: $color-white;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    &__caption {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    &__text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    &__list-box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    &__list {
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    &__item {
+        list-style: none;
+        margin-bottom: 25px;
+    }
+
+    &__item-link {
+        color: $color-blue;
+        background-color: $color-white;
+        padding: 5px 10px 5px 10px;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+}
+
+.index-services__box:nth-of-type(even) {
+    background-color: $color-blue;
+}
