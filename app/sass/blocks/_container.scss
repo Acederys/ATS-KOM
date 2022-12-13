@@ -18,10 +18,17 @@
     .container { 
         width: 768px;
     }
+    .container__index-footer {
+        width: 320px;
+    }
 }
 
 @media (min-width: 1200px) {
     .container { 
         width: 1200px;
     }
+    .container__index-footer {
+        width: 320px;
+    }
+
 }

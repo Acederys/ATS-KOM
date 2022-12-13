@@ -84,3 +84,50 @@
         text-align: center;
     }
 }
+
+@media (min-width: 768px) {
+    .advantage { 
+        font-size: 20px;
+        &__list {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &__list--big {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &__caption {
+            width: 100%;
+            font-size: 26px;
+        }
+
+        &__text--bold {
+            font-size: 26px;
+        }
+
+        &__item {
+            padding-left: 0;
+            width: 30%;
+            padding-top: 40px;
+            background-size: 40px;
+            background-position: center top;
+        }
+
+        &__img {
+            width: 768px;
+            height: 352px;
+            margin-bottom: 20px;
+        }
+
+        &__link {
+            background-size: 24px;
+        }
+
+    }
+}

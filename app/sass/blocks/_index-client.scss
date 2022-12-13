@@ -48,3 +48,13 @@
 .index-client__link:nth-last-of-type(even) {
     border-right: 2px dashed $color-contact-blue;
 }
+
+@media (min-width: 1200px) {
+    .index-client { 
+        font-size: 20px;
+
+        &__caption {
+            font-size: 26px;
+        }
+    }
+}

@@ -32,10 +32,16 @@
   .container {
     width: 768px;
   }
+  .container__index-footer {
+    width: 320px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
+  }
+  .container__index-footer {
+    width: 320px;
   }
 }
 .visually-hidden {
@@ -871,6 +877,24 @@
   background-color: #122F5E;
 }
 
+@media (min-width: 768px) {
+  .index-services__text {
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .index-services__text {
+    display: inline-block;
+    width: 100%;
+  }
+  .index-services__caption {
+    font-size: 26px;
+  }
+  .index-services__text {
+    font-size: 20px;
+  }
+}
 .index-client {
   background-color: #6E8EB4;
   color: #D7D7D7;
@@ -917,6 +941,14 @@
   border-right: 2px dashed #6E8EB4;
 }
 
+@media (min-width: 1200px) {
+  .index-client {
+    font-size: 20px;
+  }
+  .index-client__caption {
+    font-size: 26px;
+  }
+}
 .main-footer {
   background-image: url("../images/map.png");
   background-repeat: no-repeat;
@@ -1042,4 +1074,44 @@
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .advantage {
+    font-size: 20px;
+  }
+  .advantage__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .advantage__list--big {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .advantage__caption {
+    width: 100%;
+    font-size: 26px;
+  }
+  .advantage__text--bold {
+    font-size: 26px;
+  }
+  .advantage__item {
+    padding-left: 0;
+    width: 30%;
+    padding-top: 40px;
+    background-size: 40px;
+    background-position: center top;
+  }
+  .advantage__img {
+    width: 768px;
+    height: 352px;
+    margin-bottom: 20px;
+  }
+  .advantage__link {
+    background-size: 24px;
+  }
 }

@@ -55,3 +55,29 @@
 .index-services__box:nth-of-type(even) {
     background-color: $color-blue;
 }
+@media (min-width: 768px) {
+    .index-services { 
+        &__text {
+            display: inline-block;
+            width: 100%;
+        }
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .index-services { 
+        &__text {
+            display: inline-block;
+            width: 100%;
+        }
+        &__caption {
+            font-size: 26px;
+        }
+
+        &__text{
+            font-size: 20px;
+        }
+    }
+}
+
