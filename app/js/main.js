@@ -11,14 +11,6 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 319,
-                setting: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
-        ]
+
     });
   });
