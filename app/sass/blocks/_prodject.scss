@@ -1,11 +1,17 @@
 .prodject {
     padding-top: 25px;
     padding-bottom: 25px;
+    align-items: flex-start;
     &__item {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         margin-bottom: 25px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
 
     }
     &__img {
@@ -51,9 +57,52 @@
     &__letter {
         width: 300px;
         height: 424px;
-        background: url(благ-1.png);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(-6px 6px 6px rgba(0, 0, 0, 0.25));
         border-radius: 25px;
     }
 
+}
+
+@media (min-width: 768px) {
+    .prodject {
+        &__item {
+            width: 360px;
+        }
+    }
+
+    .prodject article:nth-child(2) {
+        order: 3;
+    }
+    .prodject article:nth-child(4) {
+        order: 2;
+    }
+    .prodject article:nth-child(1) {
+        order: 3;
+    }
+    .prodject article:nth-child(3) {
+        order: 3;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .prodject {
+        justify-content: space-around;
+        &__item {
+            width: 470px;
+        }
+    }
+    .prodject article:nth-child(2) {
+        order: 3;
+    }
+    .prodject article:nth-child(4) {
+        order: 2;
+    }
+    .prodject article:nth-child(1) {
+        order: 3;
+    }
+    .prodject article:nth-child(3) {
+        order: 3;
+    }
 }
