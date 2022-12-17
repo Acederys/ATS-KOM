@@ -27,6 +27,10 @@
 .container--center {
   justify-content: center;
 }
+.container--box {
+  border-radius: 25px;
+  background-color: #D7D7D7;
+}
 
 @media (min-width: 768px) {
   .container {
@@ -474,6 +478,11 @@
     width: 370px;
   }
 }
+.about-info--services {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #122F5E;
+}
 .about-info__desc {
   color: #6E8EB4;
 }
@@ -492,6 +501,10 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.about-info__list--services {
+  background-color: #D7D7D7;
+  color: #122F5E;
+}
 .about-info__item {
   width: 300px;
   padding-left: 55px;
@@ -507,6 +520,15 @@
 }
 .about-info__item--setting {
   background-image: url("../images/setting.png");
+}
+.about-info__item--quality {
+  background-image: url("../images/quality.png");
+}
+.about-info__item--reliability {
+  background-image: url("../images/save.png");
+}
+.about-info__item--operativeness {
+  background-image: url("../images/fast.png");
 }
 .about-info__caption {
   font-weight: bold;
@@ -540,6 +562,18 @@
   }
   .about-info__item {
     width: 200px;
+  }
+  .about-info__caption--services {
+    width: 100%;
+    text-align: center;
+  }
+  .about-info__list--services {
+    width: 1200px;
+    justify-content: space-around;
+  }
+  .about-info__item--services {
+    background-size: 60px;
+    padding-top: 70px;
   }
 }
 .sertificate {
@@ -824,6 +858,9 @@
   color: #D7D7D7;
   margin-top: 20px;
   margin-left: 10px;
+}
+.btn__next--services {
+  width: 200px;
 }
 
 .index-services {
@@ -1114,4 +1151,36 @@
   .advantage__link {
     background-size: 24px;
   }
+}
+.price {
+  background-color: #7EA4C7;
+  color: #122F5E;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .price__caption {
+    width: 100%;
+    text-align: center;
+  }
+  .price__text {
+    width: 100%;
+  }
+}
+.about-services {
+  background-color: #7EA4C7;
+  color: #122F5E;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.about-services__caption {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about-services__text {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }

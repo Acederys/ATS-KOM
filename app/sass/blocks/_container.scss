@@ -12,6 +12,11 @@
     &--center {
         justify-content: center;
     }
+
+    &--box {
+        border-radius: 25px;
+        background-color: $color-grey;
+    }
   }
 
 @media (min-width: 768px) {

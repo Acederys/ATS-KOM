@@ -1,0 +1,24 @@
+.price {
+    background-color: $color-light-blue;
+    color: $color-blue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    &__link {
+        color: $color-blue;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .price {
+        &__caption {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__text {
+            width: 100%;
+        }
+    }
+}

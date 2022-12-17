@@ -1,4 +1,10 @@
 .about-info {
+
+    &--services {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: $color-blue;
+    }
     &__desc {
         color: $color-contact-blue;
     }
@@ -18,6 +24,12 @@
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
+    &__list--services {
+        background-color: $color-grey;
+        color: $color-blue;
+    }
+
     &__item {
         width: 300px;
         padding-left: 55px;
@@ -36,6 +48,18 @@
 
     &__item--setting {
         background-image: url("../images/setting.png");
+    }
+
+    &__item--quality {
+        background-image: url("../images/quality.png");
+    }
+
+    &__item--reliability {
+        background-image: url("../images/save.png");
+    }
+
+    &__item--operativeness {
+        background-image: url("../images/fast.png");
     }
 
     &__caption {
@@ -76,6 +100,21 @@
         
         &__item {
             width: 200px;
+        }
+
+        &__caption--services {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__list--services {
+            width: 1200px;
+            justify-content: space-around;
+        }
+
+        &__item--services {
+            background-size: 60px;
+            padding-top: 70px;
         }
     }
 }
