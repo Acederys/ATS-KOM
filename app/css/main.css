@@ -44,6 +44,10 @@
   .container {
     width: 1200px;
   }
+  .container--between {
+    justify-content: space-between;
+    align-items: self-start;
+  }
   .container__index-footer {
     width: 320px;
   }
@@ -839,6 +843,7 @@
   width: 150px;
   text-align: center;
   margin-top: 20px;
+  margin-left: 20px;
 }
 .btn__next--white {
   background-color: #FFFFFF;
@@ -921,15 +926,31 @@
   }
 }
 @media (min-width: 1200px) {
+  .index-services {
+    font-size: 18px;
+  }
+  .index-services__box {
+    width: 500px;
+  }
+  .index-services__list {
+    padding: 0;
+  }
   .index-services__text {
     display: inline-block;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .index-services__caption {
-    font-size: 26px;
+    width: 460px;
+    font-size: 24px;
   }
   .index-services__text {
     font-size: 20px;
+  }
+  .index-services__item {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .index-client {
@@ -1095,6 +1116,7 @@
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 16px;
+  margin-left: 20px;
 }
 .advantage__text--bold {
   font-size: 20px;
@@ -1152,11 +1174,38 @@
     background-size: 24px;
   }
 }
+@media (min-width: 1200px) {
+  .advantage {
+    font-size: 18px;
+  }
+  .advantage__box {
+    width: 500px;
+  }
+  .advantage__caption {
+    width: 460px;
+    font-size: 24px;
+  }
+  .advantage__list {
+    padding: 0;
+  }
+  .advantage__text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advantage__img {
+    width: 500px;
+    height: 229px;
+  }
+}
 .price {
   background-color: #7EA4C7;
   color: #122F5E;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.price__link {
+  color: #122F5E;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

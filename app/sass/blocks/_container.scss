@@ -17,6 +17,7 @@
         border-radius: 25px;
         background-color: $color-grey;
     }
+
   }
 
 @media (min-width: 768px) {
@@ -31,9 +32,14 @@
 @media (min-width: 1200px) {
     .container { 
         width: 1200px;
+        &--between {
+            justify-content: space-between;
+            align-items: self-start;
+        }
     }
     .container__index-footer {
         width: 320px;
     }
+
 
 }
