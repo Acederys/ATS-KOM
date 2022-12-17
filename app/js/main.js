@@ -5,3 +5,20 @@ $(document).ready(function(){
         slidesToScroll: 3
     });
   });
+
+  $(document).ready(function(){
+    $('.specialists__list').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 319,
+                setting: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+  });

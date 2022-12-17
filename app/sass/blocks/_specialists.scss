@@ -25,6 +25,10 @@
         margin-bottom: 20px;
         margin-right: 0;
     }
+
+    &__item-img {
+        width: 100px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -43,9 +47,9 @@
         }
 
         &__list {
-            width: 500px;
+            width: 400px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             flex-wrap: wrap;
             align-items: flex-end;
         }
@@ -60,6 +64,18 @@
 
         &__item-caption {
             width: 200px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .specialists {
+        &__list {
+            width: 700px;
+        }
+
+        &__item-img {
+            width: 300px;
         }
     }
 }

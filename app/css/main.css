@@ -335,6 +335,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .caption__text {
   color: #D7D7D7;
@@ -694,6 +696,9 @@
   margin-bottom: 20px;
   margin-right: 0;
 }
+.specialists__item-img {
+  width: 100px;
+}
 
 @media (min-width: 768px) {
   .specialists {
@@ -710,9 +715,9 @@
     margin-top: 50px;
   }
   .specialists__list {
-    width: 500px;
+    width: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-end;
   }
@@ -724,6 +729,14 @@
   }
   .specialists__item-caption {
     width: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .specialists__list {
+    width: 700px;
+  }
+  .specialists__item-img {
+    width: 300px;
   }
 }
 .prodject {
