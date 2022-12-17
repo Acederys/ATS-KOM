@@ -602,7 +602,7 @@
   width: 100%;
 }
 .sertificate__figure {
-  width: 300px;
+  width: 100px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -613,18 +613,19 @@
   border-radius: 5px;
   padding: 20px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 70.83%), #B6B6B6;
-  width: 280px;
+  width: 50px;
 }
 .sertificate__figcaption {
   background-color: #6E8EB4;
   border-radius: 25px;
-  width: 275px;
-  padding: 20px 5px 20px 40px;
+  padding: 25px 5px 20px 5px;
   background-image: url("../images/only.png");
   background-repeat: no-repeat;
-  background-position: 15px center;
+  background-position: center 4px;
   background-size: 20px;
   margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
 }
 
 @media (min-width: 768px) {
