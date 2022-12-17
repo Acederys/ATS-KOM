@@ -2,11 +2,10 @@
     justify-content: center;
     &__map {
         width: 320px;
-        height: 158px;
     }
 
     &__box {
-        margin-top: 0;
+        margin-top: 50px;
         list-style: none;
         padding-left: 0;
         color: $color-blue;
@@ -73,7 +72,6 @@
     .contact {
         &__map {
             width: 768px;
-            height: 380px;
         }
 
         &__about-company {
@@ -87,7 +85,6 @@
     .contact {
         &__map {
             width: 1060px;
-            height: 524px;
         }
 
         &__about-company {
