@@ -186,6 +186,17 @@
   border-bottom: 1px solid #122F5E;
 }
 
+.header--link:hover,
+.header--link:active,
+.header--link:focus {
+  color: #245287;
+  border-bottom: none;
+}
+
+.header--link:disabled {
+  color: #7EA4C7;
+}
+
 @media (min-width: 768px) {
   .header {
     width: 768px;
@@ -365,6 +376,12 @@
     margin-bottom: 25px;
   }
 }
+.footer--link:hover,
+.footer--link:active,
+.footer--link:focus {
+  color: #6E8EB4;
+}
+
 .caption {
   background-image: url(../images/background-even.png);
   background-position: center center;
@@ -464,6 +481,12 @@
     font-size: 20px;
   }
 }
+.contact__link:hover,
+.contact__link:active,
+.contact__link:focus {
+  color: #6E8EB4;
+}
+
 .about-us {
   margin-top: 20px;
 }
@@ -923,6 +946,9 @@
     margin-top: 55px;
   }
 }
+.btn {
+  box-sizing: padding-box;
+}
 .btn__next {
   text-decoration: none;
   padding-top: 10px;
@@ -936,11 +962,13 @@
   text-align: center;
   margin-top: 20px;
   margin-left: 20px;
+  border: 2px solid #245287;
 }
 .btn__next--white {
   background-color: #FFFFFF;
   color: #7EA4C7;
   margin-left: 20px;
+  border: 2px solid #FFFFFF;
 }
 .btn__page {
   width: 100%;
@@ -958,6 +986,20 @@
 }
 .btn__next--services {
   width: 200px;
+}
+
+.btn__next:hover,
+.btn__next:active,
+.btn__next:focus {
+  background-color: #7EA4C7;
+  color: #D7D7D7;
+  border: 2px solid #122F5E;
+  border-radius: 25px;
+}
+
+.btn__next:disabled {
+  background-color: #D7D7D7;
+  color: #122F5E;
 }
 
 .index-services {
@@ -1164,6 +1206,12 @@
     font-size: 26px;
   }
 }
+.index-client__link:hover,
+.index-client__link:active,
+.index-client__link:focus {
+  color: #122F5E;
+}
+
 .main-footer {
   background-image: url("../images/map.png");
   background-repeat: no-repeat;
@@ -1354,6 +1402,12 @@
     height: 229px;
   }
 }
+.advantage__link:hover,
+.advantage__link:active,
+.advantage__link:focus {
+  color: #122F5E;
+}
+
 .price {
   background-color: #7EA4C7;
   color: #122F5E;

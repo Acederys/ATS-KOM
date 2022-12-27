@@ -138,3 +138,9 @@
 
     }
 }
+
+.index-client__link:hover,
+.index-client__link:active,
+.index-client__link:focus {
+    color: $color-blue;
+}

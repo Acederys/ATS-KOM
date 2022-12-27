@@ -1,5 +1,5 @@
 .btn {
-
+    box-sizing: padding-box;
     &__next {
     text-decoration: none;
     padding-top: 10px;
@@ -13,12 +13,14 @@
     text-align: center;
     margin-top: 20px;
     margin-left: 20px;
+    border: 2px solid $color-backgraund-footer;
     }
 
     &__next--white {
         background-color: $color-white;
         color: $color-light-blue;
         margin-left: 20px;
+        border: 2px solid $color-white;
     }
 
     &__page {
@@ -42,4 +44,18 @@
     &__next--services {
         width: 200px;
     }
+}
+
+.btn__next:hover,
+.btn__next:active,
+.btn__next:focus {
+    background-color: $color-light-blue;
+    color: $color-grey;
+    border: 2px solid $color-blue;
+    border-radius: 25px;
+}
+
+.btn__next:disabled {
+    background-color: $color-grey;
+    color: $color-blue;
 }

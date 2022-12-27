@@ -160,3 +160,9 @@
         }
     }
 }
+
+.advantage__link:hover,
+.advantage__link:active,
+.advantage__link:focus {
+    color: $color-blue;
+}

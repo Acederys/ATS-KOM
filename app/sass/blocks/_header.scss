@@ -111,10 +111,16 @@
 
 }
 
+.header--link:hover,
+.header--link:active,
+.header--link:focus {
+    color: $color-backgraund-footer;
+    border-bottom: none;
+}
 
-
-
-
+.header--link:disabled {
+    color: $color-light-blue;
+}
 
 @media (min-width: 768px) {
     .header {

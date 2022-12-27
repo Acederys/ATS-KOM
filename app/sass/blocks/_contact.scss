@@ -93,3 +93,9 @@
         }
     }
 }
+
+.contact__link:hover,
+.contact__link:active,
+.contact__link:focus {
+    color: $color-contact-blue;
+}
