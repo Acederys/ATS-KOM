@@ -21,3 +21,27 @@ let closeMenu = function () {
 
 menu.addEventListener("click", openMenu);
 navClose.addEventListener("click",closeMenu);
+
+// форма отправки заявки
+
+let popupBox = document.querySelector(".popup");
+let popupToggle = document.querySelector(".popup--box");
+let popupClose = document.querySelector(".popup__svg");
+// let btnPopup =  document.querySelector(".popup__link");
+
+let openPopup = function () {
+    if (popupBox.classList.contains("popup--none")) {
+        popupBox.classList.remove("popup--none");
+        popupBox.classList.add("popup--block")
+    }
+}
+
+let closePopup = function () {
+    if (popupBox.classList.contains("popup--block")) {
+        popupBox.classList.remove("popup--block");
+        popupBox.classList.add("popup--none")
+    }
+}
+
+popupToggle .addEventListener("click", openPopup);
+popupClose.addEventListener("click",closePopup);

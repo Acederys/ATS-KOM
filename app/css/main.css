@@ -1444,3 +1444,36 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.popup {
+  width: 700px;
+  height: auto;
+  position: fixed;
+  z-index: 4;
+  top: 20%;
+  left: 30%;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #D7D7D7;
+  border: 2px solid #122F5E;
+  border-radius: 25px;
+}
+.popup__form {
+  margin-top: 50px;
+}
+.popup__caption {
+  color: #122F5E;
+  text-align: center;
+  width: 100%;
+}
+.popup__svg {
+  top: 8px;
+  left: 14px;
+  position: absolute;
+}
+.popup--none {
+  display: none;
+}
+.popup--block {
+  display: flex;
+}
