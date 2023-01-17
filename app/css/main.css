@@ -1446,12 +1446,12 @@
 }
 
 .popup {
-  width: 700px;
+  width: 300px;
   height: auto;
   position: fixed;
   z-index: 4;
-  top: 20%;
-  left: 30%;
+  top: 20px;
+  left: 50px;
   justify-content: center;
   flex-wrap: wrap;
   background-color: #D7D7D7;
@@ -1476,4 +1476,15 @@
 }
 .popup--block {
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .popup {
+    width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .popup {
+    width: 800px;
+  }
 }
