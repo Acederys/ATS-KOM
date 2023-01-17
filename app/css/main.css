@@ -576,6 +576,7 @@
   background-position: 10px 15px;
   background-repeat: no-repeat;
   background-size: 30px;
+  margin-left: 20px;
 }
 .about-info__item--only {
   background-image: url("../images/only.png");
@@ -1433,6 +1434,9 @@
   color: #122F5E;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.about-services__box {
+  margin-bottom: 25px;
 }
 .about-services__caption {
   width: 100%;
